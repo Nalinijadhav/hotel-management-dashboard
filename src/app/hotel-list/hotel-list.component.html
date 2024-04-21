@@ -1,0 +1,25 @@
+<!-- hotel-list.component.html -->
+<div class="card">
+<h2>Hotels</h2>
+
+<table class="hotel-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Hotel Name</th>
+      <th>Location</th>
+     
+      <!-- Add more table headings as needed -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let hotel of hotels">
+      <td>{{ hotel.id }}</td>
+      <td>{{ hotel.H_name }}</td>
+      <td>{{ hotel.location }}</td>
+     
+      <!-- Add more table data cells as needed -->
+    </tr>
+  </tbody>
+</table>
+</div>

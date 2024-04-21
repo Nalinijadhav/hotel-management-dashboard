@@ -1,0 +1,46 @@
+
+header {
+    
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+ 
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ 
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+ 
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

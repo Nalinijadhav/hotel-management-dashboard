@@ -1,0 +1,22 @@
+<!-- booking-list.component.html -->
+<div class="card">
+<h1>Booking List</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>room</th>
+      <th>booking_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let booking of bookings">
+      <td>{{ booking.name }}</td>
+      <td>{{ booking.room }}</td>
+      <td>{{ booking.booking_status }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+

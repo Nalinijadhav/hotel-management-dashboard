@@ -1,0 +1,21 @@
+<div class="card">
+<div *ngIf="rooms">
+  <h2>Rooms</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Capacity</th>
+        <th>date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let room of rooms">
+        <td>{{ room.room_no }}</td>
+        <td>{{ room.capacity }}</td>
+        <td>{{ room.date }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>

@@ -1,0 +1,33 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+ 
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+ 
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  

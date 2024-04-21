@@ -1,0 +1,22 @@
+<div class="card">
+    <div *ngIf="guests">
+      <h2>Guests</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Check-In</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let guest of guests">
+            <td>{{ guest.name }}</td>
+            <td>{{ guest.address }}</td>
+            <td>{{ guest.checkIn }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

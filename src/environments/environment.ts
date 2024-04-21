@@ -2,8 +2,10 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'http://localhost:1337', // Change this URL to match your Strapi backend's base URL
 };
 
 /*
